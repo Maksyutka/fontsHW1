@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Playfair+Display&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.mainInfo {
+    padding: 105px 100px 0 100px;
+}
+
+.wrapper {
+    box-shadow: 0px 0px 40px -14px #676767;
+    margin: 0 auto;
+    padding: 65px 40px;
+    width: 738px;
+}
+
+.titleStyle {
+    font-family: 'Playfair Display';
+    font-size: 20px;
+}
+
+.textStyle {
+    margin: 15px 0 0 0;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 10px;
+    color: rgb(65, 65, 65);
+    line-height: 20px;
+}
+
+.textStyle span {
+    font-family: 'Playfair Display';
+    float: left;
+    font-size: 50px;
+    margin: 2px 10px 0 0px;
+    color: #000;
+}
+
+.subtitleStyle {
+    font-family: 'Lato';
+    font-weight: 300;
+    color: rgb(65, 65, 65);
+    font-size: 13px;
+}
+
+.subtitleStyle span {
+    font-size: 30px;
+}
+
+.buttonStyle {
+    font-family: 'Lato';
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+    border: 2px solid #EAA258;
+    color: #EAA258;
+    background-color: #fff;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    font-size: 11px;
+    margin: 44px 0 0 0;
+}
+
+.buttonStyle:hover {
+    cursor: pointer;
+    background-color: #ffeddb;
+}
+
+.buttonStyle:active {
+    background-color: #EAA258;
+    color: #ffeddb;
+    border: 2px solid #ffeddb;
+}
